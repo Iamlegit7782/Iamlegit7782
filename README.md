@@ -1,9 +1,4 @@
-/*
-  Name: CALCULATOR v1.0
-  Author: Aldo Ziflaj
-  Date: 01-01-13 12:01
-  Description: A simple calculator that can add, subtract multiply, divide, 
-               raise to n-th integer power and calculate the factorial
+
 */
 
 #include <iostream>
@@ -50,7 +45,7 @@ int main () {
     else cout<<"command unknown, program will go on\n"; // DEFAULT
 
     // CREATING THE BASE FOR THE LOOP
-    cout<<"\nType 'restart' to start again from the beggining, \
+    cout<<"\nType '1' to start again from the beggining, \
 'reuse' to use the result, \n'mr' to reuse the number \
 in the memory, or 'quit' to quit: ";
     cin>>choice; // TELL THE PROGRAM WHAT TO DO
